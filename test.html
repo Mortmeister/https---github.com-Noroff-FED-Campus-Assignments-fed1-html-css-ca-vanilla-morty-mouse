@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gamehub</title>
+    <meta name="author" content="Morten Lillehaug" />
+    <meta
+      name="keywords"
+      content="games, playstation, xbox, nintendo, webshop"
+    />
+    <meta name="title" content="Gamehub" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css"
+      integrity="sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw=="
+      crossorigin="anonymous"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <header class="header-mobile">
+      <div>
+        <a href="index.html" class="header-link">
+          <img
+            src="media/GameHub_Logo.png"
+            alt="gamehub logo"
+            class="header-logo"
+        /></a>
+      </div>
+      <input type="checkbox" id="menu-checkbox" />
+      <label for="menu-checkbox" class="hamburger-icon"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <div>
+          <a href="index.html" class="header-link">
+            <img
+              src="media/GameHub_Logo.png"
+              alt="gamehub logo"
+              class="header-logo--nav"
+          /></a>
+        </div>
+        <a href="index.html">Home Page</a>
+        <a href="store.html">Store</a>
+        <a href="">Library</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="">My Profile</a>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </nav>
+    </header>
+
+    <section class="container">
+      <div class="slider-wrapper">
+        <div class="slider-nav">
+          <a href="#slide-1"> </a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+        </div>
+        <div class="slider">
+          <img
+            src="media/image.jpg"
+            alt="call of duty black ops 6"
+            class="store-hero-img"
+            id="slide-1"
+          />
+          <img
+            src="media/black-myth-mobile-store-hero.jpg"
+            alt=""
+            class="store-hero-img"
+            id="slide-2"
+          />
+          <img
+            src="media/zelda_small.jpg"
+            alt=""
+            class="store-hero-img"
+            id="slide-3"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="store-hero">
+      <div class="store-hero-container">
+        <img
+          src="media/image.jpg"
+          alt="call of duty black ops 6"
+          class="store-hero-img"
+        />
+        <img
+          src="media/black-myth-mobile-store-hero.jpg"
+          alt=""
+          class="store-hero-img"
+        />
+        <img src="media/zelda_small.jpg" alt="" class="store-hero-img" />
+      </div>
+    </section>
+
+    <section class="product-description">
+      <img
+        src="media/ronin-mobile-info.jpg"
+        alt="samurai looking out at the distance from a height"
+        class="product-description-image"
+      />
+      <article class="product-description-article">
+        <input type="checkbox" class="read-more-state" id="post-1" />
+
+        <p class="read-more-wrap">
+          Japan, 1863. Ronin is a fast-paced, turn-based stealth action game
+          that blends sleek combat mechanics with a rich narrative. Developed by
+          Tomasz Waclawek, Ronin puts players in the shoes of a skilled assassin
+          seeking revenge against a powerful corporate syndicate.
+
+          <span class="read-more-target">
+            Gameplay Overview: Ronin combines elements of platforming and
+            tactical combat in a unique way. The game is divided into two key
+            modes: stealth and action. In stealth mode, you move swiftly through
+            buildings, grappling across rooftops, dodging security cameras, and
+            sneaking past guards. Once enemies detect your presence, the game
+            shifts into a turn-based mode where every move must be calculated.
+            You can pause to plan your next step: whether to deflect bullets
+            with your katana, use your grappling hook to reposition, or strike
+            down enemies in one lethal blow. The game emphasizes both agility
+            and foresight. Each encounter becomes a puzzle, where timing and
+            positioning are crucial to outmaneuver your opponents. With a
+            limited number of moves, one wrong decision can mean the difference
+            between success and a swift demise. Key features: Tactical Combat:
+            Turn-based combat that requires quick thinking and clever planning.
+            Dodge enemy attacks, parry bullets, and strike with precision.
+            Stealth Mastery: Use the environment to your advantage. Sneak past
+            guards, avoid detection, and use shadows and rooftops to stay out of
+            sight. Narrative-Driven Revenge: Follow a gripping story of betrayal
+            and vengeance as you uncover the truth behind the conspiracy that
+            destroyed your masters life. Stylish and Minimalistic Art Style: The
+            game's clean, striking visuals complement the fast, fluid gameplay,
+            with sharp animations and detailed environments. Challenging Boss
+            Battles: Face off against five unique bosses, each with distinct
+            abilities, forcing you to adapt your tactics and strategies.</span
+          >
+        </p>
+        <label for="post-1" class="read-more-trigger"></label>
+      </article>
+    </section>
+  </body>
+</html>
